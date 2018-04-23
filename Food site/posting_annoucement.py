@@ -30,7 +30,16 @@ element_userpass.clear() #clearing password field
 
 element_userpass.send_keys("admin")   #setting password field
 
+time.sleep(2)
+
 element_login = driver.find_element_by_css_selector(
     "#content > form:nth-child(11) > fieldset:nth-child(1) > input:nth-child(8)")
 
 element_login.send_keys(Keys.RETURN)
+
+
+t = randint(5,7)
+
+time.sleep(t)
+
+driver.close()
