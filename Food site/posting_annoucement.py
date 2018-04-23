@@ -14,6 +14,9 @@ t = randint(5, 7)
 
 time.sleep(t)
 
+
+#log in
+
 element_username = driver.find_element_by_css_selector(
     "#content > form:nth-child(11) > fieldset:nth-child(1) > label:nth-child(2) > input:nth-child(3)")
 
