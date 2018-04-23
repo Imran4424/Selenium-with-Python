@@ -49,6 +49,13 @@ time.sleep(t)
 
 element_task = driver.find_element_by_css_selector("#content > form:nth-child(2) > fieldset:nth-child(1) > label:nth-child(2) > select:nth-child(3)")
 
+element_task.send_keys("Announcements")
 
+time.sleep(t)
+
+element_select_task = driver.find_element_by_css_selector(
+    "#content > form:nth-child(2) > fieldset:nth-child(1) > input:nth-child(5)")
+
+element_select_task.send_keys(Keys.RETURN)
 
 #driver.close()
