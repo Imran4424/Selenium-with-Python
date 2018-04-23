@@ -18,3 +18,9 @@ class PythonOrgSearch(unittest.TestCase):
 
         element = driver.find_element_by_name("q")
         element.send_keys("pycon") 
+        element.send_keys(Keys.RETURN)
+
+        assert "No Resuts found." not in driver.page_source
+
+    def tearDown(self):
+        self.driver.close
