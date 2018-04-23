@@ -47,6 +47,8 @@ element_admin.send_keys(Keys.RETURN)
 
 time.sleep(t)
 
+element_task = driver.find_element_by_css_selector("#content > form:nth-child(2) > fieldset:nth-child(1) > label:nth-child(2) > select:nth-child(3)")
+
 
 
 #driver.close()
