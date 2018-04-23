@@ -15,6 +15,26 @@ t = randint(5, 7)
 time.sleep(t)
 
 
+
+# announcements page
+
+element_announcements = driver.find_element_by_css_selector(
+    "#content > a:nth-child(7)")
+
+element_announcements.send_keys(Keys.RETURN)
+
+time.sleep(t)
+
+# going to home
+
+element_home = driver.find_element_by_css_selector(
+    "#navigation > li:nth-child(1) > a:nth-child(1)")
+
+element_home.send_keys(Keys.RETURN)
+
+time.sleep(t)
+
+
 # log in
 
 element_username = driver.find_element_by_css_selector(
@@ -116,5 +136,7 @@ time.sleep(t)
 element_logout = driver.find_element_by_css_selector("#content > form:nth-child(15) > input:nth-child(1)")
 
 element_logout.send_keys(Keys.RETURN)
+
+time.sleep(t)
 
 driver.close()
