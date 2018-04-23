@@ -8,7 +8,7 @@ driver.get("http://www.python.org")
 
 assert "Python" in driver.title
 
-element = driver.find_element_by_name("d")
+element = driver.find_element_by_name("q")
 
 element.clear() #for clearing the search field
 
