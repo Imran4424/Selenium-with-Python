@@ -58,4 +58,20 @@ element_select_task.send_keys(Keys.RETURN)
 
 time.sleep(t)
 
+element_announcement_text = driver.find_element_by_css_selector(
+    "#content > div:nth-child(8) > form:nth-child(1) > label:nth-child(1) > textarea:nth-child(3)")
+
+element_announcement_text.clear()
+
+element_announcement_text.send_keys("Posting from selenium python script")
+
+time.sleep(t)
+
+element_publish = driver.find_element_by_css_selector(
+    "#content > div:nth-child(8) > form:nth-child(1) > input:nth-child(2)")
+
+element_publish.send_keys(Keys.RETURN)
+
+
+
 driver.close()
