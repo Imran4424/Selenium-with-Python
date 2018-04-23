@@ -10,7 +10,7 @@ driver = webdriver.Firefox()
 
 driver.get("https://github.com/")
 
-t = randint(8,10)
+t = randint(1,3)
 
 time.sleep(t)
 
@@ -19,6 +19,13 @@ time.sleep(t)
 driver.get("https://github.com/Imran4424")
 
 time.sleep(t)
+
+# scroll_down
+
+driver.execute_script("window.scrollTo(0, document.body.scrollHeight)/")
+
+time.sleep(t)
+
 
 # closing the tab or browser
 
