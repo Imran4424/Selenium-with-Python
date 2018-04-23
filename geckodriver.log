@@ -191,3 +191,8 @@ Unable to read VR Path Registry from C:\Users\Imu\AppData\Local\openvr\openvrpat
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1524497546262	geckodriver	INFO	geckodriver 0.20.1
+1524497546272	geckodriver	INFO	Listening on 127.0.0.1:14114
+1524497549318	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Imu\\AppData\\Local\\Temp\\rust_mozprofile.BBIa796BbqlT"
+1524497552262	Marionette	INFO	Listening on port 14122
+1524497552479	Marionette	WARN	TLS certificate errors will be ignored for this session
