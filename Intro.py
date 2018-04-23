@@ -16,4 +16,6 @@ element.send_keys("pycon")  #giving input to search key "pycon"
 
 element.send_keys(Keys.RETURN)   # returning result
 
-assert "No results found." not in driver.page_source  #if there is nothing in re
+assert "No results found." not in driver.page_source  #if there is nothing in return
+
+driver.close()
