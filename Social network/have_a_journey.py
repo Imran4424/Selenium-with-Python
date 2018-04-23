@@ -14,6 +14,12 @@ t = randint(8,10)
 
 time.sleep(t)
 
+# go to profile
+
+driver.get("https://github.com/Imran4424")
+
+time.sleep(t)
+
 # closing the tab or browser
 
 driver.close()
