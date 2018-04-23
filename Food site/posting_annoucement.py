@@ -37,8 +37,6 @@ element_login = driver.find_element_by_css_selector("#content > form:nth-child(1
 element_login.send_keys(Keys.RETURN)
 
 
-t = randint(5,7)
-
 time.sleep(t)
 
 element_admin = driver.find_element_by_css_selector("#content > a:nth-child(12)")
@@ -58,4 +56,6 @@ element_select_task = driver.find_element_by_css_selector(
 
 element_select_task.send_keys(Keys.RETURN)
 
-#driver.close()
+time.sleep(t)
+
+driver.close()
