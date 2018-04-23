@@ -81,8 +81,7 @@ element_announcement_text.send_keys("Posting from selenium python script")
 
 time.sleep(t)
 
-element_publish = driver.find_element_by_css_selector(
-    "#content > div:nth-child(8) > form:nth-child(1) > input:nth-child(2)")
+element_publish = driver.find_element_by_css_selector("#content > div:nth-child(8) > form:nth-child(1) > input:nth-child(2)")
 
 element_publish.send_keys(Keys.RETURN)
 
@@ -90,8 +89,7 @@ time.sleep(t)
 
 # going to home
 
-element_home = driver.find_element_by_css_selector(
-    "#navigation > li:nth-child(1) > a:nth-child(1)")
+element_home = driver.find_element_by_css_selector("#navigation > li:nth-child(1) > a:nth-child(1)")
 
 element_home.send_keys(Keys.RETURN)
 
@@ -99,8 +97,7 @@ time.sleep(t)
 
 # announcements page
 
-element_announcements = driver.find_element_by_css_selector(
-    "#content > a:nth-child(7)")
+element_announcements = driver.find_element_by_css_selector("#content > a:nth-child(7)")
 
 element_announcements.send_keys(Keys.RETURN)
 
@@ -108,8 +105,7 @@ time.sleep(t)
 
 # going to home
 
-element_home = driver.find_element_by_css_selector(
-    "#navigation > li:nth-child(1) > a:nth-child(1)")
+element_home = driver.find_element_by_css_selector("#navigation > li:nth-child(1) > a:nth-child(1)")
 
 element_home.send_keys(Keys.RETURN)
 
@@ -117,6 +113,8 @@ time.sleep(t)
 
 # log out
 
-element_ logout = driver.find_element_by_css_selector
+element_logout = driver.find_element_by_css_selector("#content > form:nth-child(15) > input:nth-child(1)")
+
+element_logout.send_keys(Keys.RETURN)
 
 driver.close()
