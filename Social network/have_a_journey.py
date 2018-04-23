@@ -8,4 +8,4 @@ driver = webdriver.Firefox()
 
 # entering the site
 
-driver.get("http://localhost/foodsite/index.php")
+driver.get("https://www.facebook.com/")
