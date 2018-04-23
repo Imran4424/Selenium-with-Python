@@ -16,7 +16,7 @@ element_username = driver.find_element_by_css_selector(
     "#content > form:nth-child(11) > fieldset:nth-child(1) > label:nth-child(2) > input:nth-child(3)")
 
 
-element_username.clear()
+element_username.clear()  #
 
 element_username.send_keys("admin")
 
@@ -24,3 +24,6 @@ element_userpass = driver.find_element_by_css_selector(
     "#content > form:nth-child(11) > fieldset:nth-child(1) > label:nth-child(5) > input:nth-child(3)")
 
 
+element_userpass.clear()
+
+element_userpass.send_keys("admin")   #
