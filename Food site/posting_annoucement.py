@@ -70,7 +70,7 @@ element_select_task.send_keys(Keys.RETURN)
 
 time.sleep(t)
 
-#posting a new announcement
+# posting a new announcement
 
 element_announcement_text = driver.find_element_by_css_selector(
     "#content > div:nth-child(8) > form:nth-child(1) > label:nth-child(1) > textarea:nth-child(3)")
@@ -87,5 +87,21 @@ element_publish = driver.find_element_by_css_selector(
 element_publish.send_keys(Keys.RETURN)
 
 time.sleep(t)
+
+# going to home
+
+element_home = driver.find_element_by_css_selector(
+    "#navigation > li:nth-child(1) > a:nth-child(1)")
+
+element_home.send_keys(Keys.RETURN)
+
+time.sleep(t)
+
+# announcements page
+
+element_announcements = driver.find_element_by_css_selector(
+    "#content > a:nth-child(7)")
+
+    
 
 driver.close()
