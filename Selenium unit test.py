@@ -11,4 +11,10 @@ class PythonOrgSearch(unittest.TestCase):
 
 
     def Test_search_in_python_org(self):
-        driver = self.driver        
+        driver = self.driver
+        driver.get("http://www.python.org")
+
+        self.assertIn("Python", driver.title)
+
+        element = driver.find_element_by_name("q")
+        element.send_keys("pycon") 
