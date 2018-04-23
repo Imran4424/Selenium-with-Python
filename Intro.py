@@ -13,3 +13,6 @@ element = driver.find_element_by_name("d")
 element.clear() #for clearing the search field
 
 element.send_keys("pycon")  #giving input to search key "pycon"
+
+element.send_keys(Keys.RETURN)   # returning result
+
