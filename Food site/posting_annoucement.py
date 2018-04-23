@@ -102,6 +102,21 @@ time.sleep(t)
 element_announcements = driver.find_element_by_css_selector(
     "#content > a:nth-child(7)")
 
-    
+element_announcements.send_keys(Keys.RETURN)
+
+time.sleep(t)
+
+# going to home
+
+element_home = driver.find_element_by_css_selector(
+    "#navigation > li:nth-child(1) > a:nth-child(1)")
+
+element_home.send_keys(Keys.RETURN)
+
+time.sleep(t)
+
+# log out
+
+element_ logout = driver.find_element_by_css_selector
 
 driver.close()
