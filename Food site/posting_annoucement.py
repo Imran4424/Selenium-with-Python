@@ -45,4 +45,8 @@ element_admin = driver.find_element_by_css_selector("#content > a:nth-child(12)"
 
 element_admin.send_keys(Keys.RETURN)
 
+time.sleep(t)
+
+
+
 #driver.close()
