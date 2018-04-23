@@ -7,5 +7,5 @@ class PythonOrgSearch(unittest.TestCase):
     
     
     def setUp(self):
-        self.driver()
+        self.driver = webdriver.Firefox()
         
