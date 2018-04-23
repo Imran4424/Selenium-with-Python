@@ -10,7 +10,7 @@ driver = webdriver.Firefox()
 
 driver.get("http://localhost/foodsite/index.php")
 
-t = randint(5, 7)
+t = randint(10,11)
 
 time.sleep(t)
 
@@ -45,7 +45,7 @@ element_username.clear()  #clearing username field
 
 element_username.send_keys("admin") #setting username admin
 
-time.sleep(2)
+time.sleep(t)
 
 element_userpass = driver.find_element_by_css_selector(
     "#content > form:nth-child(11) > fieldset:nth-child(1) > label:nth-child(5) > input:nth-child(3)")
@@ -55,7 +55,7 @@ element_userpass.clear() #clearing password field
 
 element_userpass.send_keys("admin")   #setting password field
 
-time.sleep(2)
+time.sleep(t)
 
 element_login = driver.find_element_by_css_selector("#content > form:nth-child(11) > fieldset:nth-child(1) > input:nth-child(8)")
 
@@ -81,7 +81,7 @@ element_task.send_keys("Announcements")
 
 time.sleep(t)
 
-# returning announcements page
+# going to admin announcements page
 
 element_select_task = driver.find_element_by_css_selector(
     "#content > form:nth-child(2) > fieldset:nth-child(1) > input:nth-child(5)")
@@ -106,6 +106,13 @@ element_publish = driver.find_element_by_css_selector("#content > div:nth-child(
 element_publish.send_keys(Keys.RETURN)
 
 time.sleep(t)
+
+# scroll_down
+
+driver.execute_script("window.scrollTo(0, document.body.scrollHeight)")
+
+time.sleep(t)
+
 
 # going to home
 
