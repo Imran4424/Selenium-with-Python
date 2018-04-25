@@ -36,6 +36,9 @@ element_library = driver.find_element_by_css_selector(".tut-lib")
 
 element_library.send_keys(Keys.RETURN)
 
+t = randint(7, 12)
+
+time.sleep(t)
 
 # close 
 
