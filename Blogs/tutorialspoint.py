@@ -18,9 +18,9 @@ time.sleep(t)
 
 driver.execute_script("window.scrollTo(0,300*1)")
 
-#t = randint(7, 12)
+t = randint(7, 12)
 
-#time.sleep(t)
+time.sleep(t)
 
 # scroll down 2nd time in a row
 
@@ -30,4 +30,6 @@ t = randint(7, 12)
 
 time.sleep(t)
 
+# close 
 
+driver.close()
