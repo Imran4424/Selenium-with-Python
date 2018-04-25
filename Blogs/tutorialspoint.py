@@ -8,3 +8,4 @@ driver = webdriver.Firefox()
 
 # entering the site
 
+driver.get
