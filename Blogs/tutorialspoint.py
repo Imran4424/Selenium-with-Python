@@ -14,6 +14,8 @@ t = randint(7,12)
 
 time.sleep(t)
 
+# scrolling down the page
+
 
 
 
