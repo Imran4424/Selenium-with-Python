@@ -10,4 +10,10 @@ driver = webdriver.Firefox()
 
 driver.get("https://www.tutorialspoint.com/index.htm")
 
+t = randint(7,12)
+
+time.sleep(t)
+
+
+
 
