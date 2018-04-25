@@ -30,6 +30,8 @@ t = randint(7, 12)
 
 time.sleep(t)
 
+#
+
 # close 
 
 driver.close()

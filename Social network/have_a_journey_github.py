@@ -40,7 +40,10 @@ time.sleep(t)
 
 # back to home
 
-element_home = driver.find_element_by_xpath("//div[@class="octicon octicon-mark-github")
+element_home = driver.find_element_by_xpath(
+    "/html/body/div[1]/header/div/div[1]/div/a/svg/path")
+
+
 
 element_home.send_keys(Keys.RETURN)
 
