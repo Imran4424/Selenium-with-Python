@@ -26,6 +26,8 @@ time.sleep(t)
 
 driver.execute_script("window.scrollTo(0, 200)")
 
+t = randint(7, 12)
+
 time.sleep(t)
 
 
