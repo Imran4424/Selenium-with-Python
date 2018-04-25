@@ -16,7 +16,7 @@ time.sleep(t)
 
 # scrolling down the page
 
-driver.execute_script("window.scrollTo(0,200*1)")
+driver.execute_script("window.scrollTo(0,300*1)")
 
 #t = randint(7, 12)
 
@@ -24,7 +24,7 @@ driver.execute_script("window.scrollTo(0,200*1)")
 
 # scroll down 2nd time in a row
 
-driver.execute_script("window.scrollTo(0,200*2)")
+driver.execute_script("window.scrollTo(0,300*2)")
 
 t = randint(7, 12)
 
