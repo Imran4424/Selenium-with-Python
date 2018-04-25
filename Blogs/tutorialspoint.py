@@ -32,7 +32,7 @@ time.sleep(t)
 
 # going to library
 
-element_library = driver.find_element_by_css_selector(".tut-lib")
+element_library = driver.find_element_by_name("Learn Data Structure &amp; Algorithms")
 
 element_library.send_keys(Keys.RETURN)
 
