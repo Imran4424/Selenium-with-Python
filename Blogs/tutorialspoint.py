@@ -8,4 +8,6 @@ driver = webdriver.Firefox()
 
 # entering the site
 
-driver.get
+driver.get("https://www.tutorialspoint.com/index.htm")
+
+
