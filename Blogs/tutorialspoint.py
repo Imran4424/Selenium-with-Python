@@ -32,7 +32,8 @@ time.sleep(t)
 
 # going to library
 
-element_library = driver.find_element_by_name("Learn Data Structure &amp; Algorithms")
+element_library = driver.find_element_by_xpath("/html/body/header/div[2]/div/div/nav/ul/li[3]/a/span")
+
 
 element_library.send_keys(Keys.RETURN)
 
