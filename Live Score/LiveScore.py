@@ -92,3 +92,4 @@ time.sleep(t)
 
 # scroll down
 
+driver.execute_script("window.scrollTo(0,200*1)")
