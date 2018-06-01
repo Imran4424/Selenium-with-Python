@@ -109,3 +109,4 @@ time.sleep(t)
 
 driver.execute_script("window.scrollTo(0,200*1)")
 
+time.sleep(9)
