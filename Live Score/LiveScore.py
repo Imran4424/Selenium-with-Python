@@ -25,9 +25,9 @@ sports = int(input("chose an option: "))
 if sports == 1:
     print("1. Live")
     print("2. World Cup")
-    print("3. International");
-    print("4. Champions League");
-    print("5. Leagues");
+    print("3. International")
+    print("4. Champions League")
+    print("5. Leagues")
 
     football = int(input("chose an option: "))
 
