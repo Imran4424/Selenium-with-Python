@@ -9,3 +9,13 @@ driver = webdriver.Firefox()
 #user inputs
 
 
+print("chose an option")
+
+print("1.Football")
+print("2.Russia World Cup")
+print("3.Cricket")
+print("4.Tennis")
+print("5.Basketball")
+print("6.Hockey")
+
+
