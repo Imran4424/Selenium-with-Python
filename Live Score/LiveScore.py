@@ -27,7 +27,8 @@ if sports == 1:
     print("2. World Cup")
     print("3. International")
     print("4. Champions League")
-    print("5. Leagues")
+    print("5. Brazil")
+    print("6. England")
 
     football = int(input("chose an option: "))
 
@@ -42,3 +43,11 @@ if sports == 1:
     elif football == 5:
         print("buiding in process")
 
+elif sports == 2:
+    print("1. ICC World Cup One-Day")
+    print("2. ICC World Cup T20")
+    print("3. International One-Day")
+    print("3. International T20")
+    print("3. International Test")
+    print("4. ICC Champions Trophy")
+    print("5. B")
