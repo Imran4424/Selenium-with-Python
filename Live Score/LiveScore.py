@@ -97,17 +97,17 @@ driver.execute_script("window.scrollTo(0,200*1)")
 t = randint(5,10)
 time.sleep(t)
 
-driver.execute_script("window.scrollTo(0,200*1)")
+driver.execute_script("window.scrollTo(0,200*2)")
 
 t = randint(5, 10)
 time.sleep(t)
 
-driver.execute_script("window.scrollTo(0,200*1)")
+driver.execute_script("window.scrollTo(0,200*3)")
 
 t = randint(5,10)
 time.sleep(t)
 
-driver.execute_script("window.scrollTo(0,200*1)")
+driver.execute_script("window.scrollTo(0,200*4)")
 
 time.sleep(9)
 
