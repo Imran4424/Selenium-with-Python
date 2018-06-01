@@ -88,3 +88,4 @@ elif sports == 5:
 
 
 t = randint(5,10)
+time.sleep
