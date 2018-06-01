@@ -23,8 +23,8 @@ print("5.Hockey\n")
 sports = int(input("chose an option: "))
 
 if sports == 1:
-    print("1. Live");
-    print("2. World Cup");
+    print("1. Live")
+    print("2. World Cup")
     print("3. International");
     print("4. Champions League");
     print("5. Leagues");
@@ -36,5 +36,9 @@ if sports == 1:
     elif football == 2:
         driver.get("http://www.livescore.com/worldcup/")
     elif football == 3:
-        driver.
+        driver.get("http://www.livescore.com/soccer/intl/")
+    elif football == 4:
+        driver.get("http://www.livescore.com/soccer/champions-league/")
+    elif football == 5:
+        print("buiding in process")
 
