@@ -79,3 +79,9 @@ elif sports == 2:
 
 elif sports == 3:
     driver.get("http://www.livescore.com/tennis/")
+
+elif sports == 4:
+    driver.get("http://www.livescore.com/basketball/")
+
+elif sports == 5:
+    driver.get("http://www.livescore.com/hockey/")
