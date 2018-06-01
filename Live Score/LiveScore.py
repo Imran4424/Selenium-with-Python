@@ -47,7 +47,7 @@ if sports == 1:
         driver.get("http://www.livescore.com/soccer/england/")
     elif football == 7:
         driver.get("http://www.livescore.com/soccer/spain/")
-        
+
 elif sports == 2:
     print("1. Live")
     print("2. ICC World Cup One-Day")
@@ -77,4 +77,5 @@ elif sports == 2:
     elif cricket == 8:
         driver.get("http://www.livescore.com/cricket/bangladesh/")
 
-
+elif sports == 3:
+    driver
