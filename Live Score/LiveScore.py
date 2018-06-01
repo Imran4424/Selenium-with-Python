@@ -87,4 +87,4 @@ elif sports == 5:
     driver.get("http://www.livescore.com/hockey/")
 
 
-t = ra
+t = randint
