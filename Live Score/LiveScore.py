@@ -94,3 +94,4 @@ time.sleep(t)
 
 driver.execute_script("window.scrollTo(0,200*1)")
 
+t = randint(5,10);
