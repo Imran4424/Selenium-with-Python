@@ -63,3 +63,9 @@ elif sports == 2:
         driver.get("http://www.livescore.com/cricket/icc-world-t20/")
     elif cricket == 4:
         driver.get("http://www.livescore.com/cricket/intl_odi/")
+    elif cricket == 5:
+        driver.get("http://www.livescore.com/cricket/intl_t20/")
+    elif cricket == 6:
+        driver.get("http://www.livescore.com/cricket/intl_test/")
+    elif cricket == 7:
+        driver.get("http://www.livescore.com/cricket/icc_champ/")
