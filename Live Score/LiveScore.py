@@ -6,8 +6,11 @@ from selenium.webdriver.common.keys import Keys
 
 driver = webdriver.Firefox()
 
-#user inputs
+# entering the site
 
+driver.get("http://www.livescore.com/")
+
+# user inputs
 
 print("chose an option")
 
@@ -19,3 +22,4 @@ print("5.Basketball")
 print("6.Hockey")
 
 
+sports = input();
