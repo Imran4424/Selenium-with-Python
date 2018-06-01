@@ -44,15 +44,18 @@ if sports == 1:
         driver.get("http://www.livescore.com/soccer/brazil/")
 
 elif sports == 2:
-    print("1. ICC World Cup One-Day")
-    print("2. ICC World Cup T20")
-    print("3. International One-Day")
-    print("3. International T20")
-    print("3. International Test")
-    print("4. ICC Champions Trophy")
-    print("5. Bangladesh")
+    print("1. Live")
+    print("2. ICC World Cup One-Day")
+    print("3. ICC World Cup T20")
+    print("4. International One-Day")
+    print("5. International T20")
+    print("6. International Test")
+    print("7. ICC Champions Trophy")
+    print("8. Bangladesh")
 
     cricket = int(input("chose an option: "))
 
     if cricket == 1:
         driver.get("http://www.livescore.com/cricket/live/")
+    elif cricket == 2:
+        driver.get("")
