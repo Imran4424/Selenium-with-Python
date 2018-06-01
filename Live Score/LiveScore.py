@@ -51,3 +51,5 @@ elif sports == 2:
     print("3. International Test")
     print("4. ICC Champions Trophy")
     print("5. Bangladesh")
+
+    cricket = int(input("chose an option: "))
