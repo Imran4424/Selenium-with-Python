@@ -78,4 +78,4 @@ elif sports == 2:
         driver.get("http://www.livescore.com/cricket/bangladesh/")
 
 elif sports == 3:
-    driver
+    driver.get("http://www.livescore.com/tennis/")
