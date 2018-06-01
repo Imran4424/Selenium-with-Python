@@ -53,3 +53,6 @@ elif sports == 2:
     print("5. Bangladesh")
 
     cricket = int(input("chose an option: "))
+
+    if cricket == 1:
+        driver.get("http://www.livescore.com/cricket/live/")
