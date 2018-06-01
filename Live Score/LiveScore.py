@@ -58,4 +58,6 @@ elif sports == 2:
     if cricket == 1:
         driver.get("http://www.livescore.com/cricket/live/")
     elif cricket == 2:
+        driver.get("http://www.livescore.com/cricket/wc_odi/")
+    elif cricket == 3:
         driver.get("")
