@@ -12,14 +12,29 @@ driver.get("http://www.livescore.com/")
 
 # user inputs
 
-print("chose an option")
 
 print("1.Football")
-print("2.Russia World Cup")
-print("3.Cricket")
-print("4.Tennis")
-print("5.Basketball")
-print("6.Hockey")
+print("2.Cricket")
+print("3.Tennis")
+print("4.Basketball")
+print("5.Hockey\n")
 
 
-sports = input();
+sports = int(input("chose an option: "))
+
+if sports == 1:
+    print("1. Live");
+    print("2. World Cup");
+    print("3. International");
+    print("4. Champions League");
+    print("5. Leagues");
+
+    football = int(input("chose an option: "))
+
+    if football == 1:
+        driver.get("http://www.livescore.com/soccer/live/")
+    elif football == 2:
+        driver.get("http://www.livescore.com/worldcup/")
+    elif football == 3:
+        driver.
+
