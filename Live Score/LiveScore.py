@@ -41,7 +41,7 @@ if sports == 1:
     elif football == 4:
         driver.get("http://www.livescore.com/soccer/champions-league/")
     elif football == 5:
-        print("buiding in process")
+        driver.get("http://www.livescore.com/soccer/brazil/")
 
 elif sports == 2:
     print("1. ICC World Cup One-Day")
@@ -50,4 +50,4 @@ elif sports == 2:
     print("3. International T20")
     print("3. International Test")
     print("4. ICC Champions Trophy")
-    print("5. B")
+    print("5. Bangladesh")
