@@ -29,6 +29,7 @@ if sports == 1:
     print("4. Champions League")
     print("5. Brazil")
     print("6. England")
+    print("7. Spain")
 
     football = int(input("chose an option: "))
 
@@ -42,7 +43,11 @@ if sports == 1:
         driver.get("http://www.livescore.com/soccer/champions-league/")
     elif football == 5:
         driver.get("http://www.livescore.com/soccer/brazil/")
-
+    elif football == 6:
+        driver.get("http://www.livescore.com/soccer/england/")
+    elif football == 7:
+        driver.get("http://www.livescore.com/soccer/spain/")
+        
 elif sports == 2:
     print("1. Live")
     print("2. ICC World Cup One-Day")
@@ -71,3 +76,5 @@ elif sports == 2:
         driver.get("http://www.livescore.com/cricket/icc_champ/")
     elif cricket == 8:
         driver.get("http://www.livescore.com/cricket/bangladesh/")
+
+
